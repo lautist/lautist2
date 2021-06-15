@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+.letras{
+    background: #DF0717;
+    border-bottom: 1px solid #ffffff;
+    padding: 0px 0px 5px 0px;
+    color: white;
+}
+.letras p{
+    padding: 5px 0px 0px 250px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.arriba{
+    display: flex;
+    background: #DF0717;
+    height: 100px;
+}
+.logo{
+    padding: 18px 0px 0px 35px;
+}
+    .logo img{
+    height: 62px;
+    }
+.busqueda{
+    padding: 35px 0px 0px 50px;
+}
+form input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 1030px;
+    height: 30px;
+    background-color: white;
+    background-image: url('busq.png');
+    background-position: 1000px 3.5px; 
+    background-repeat: no-repeat;
+}
+
+.carrito{
+    padding: 40px 0px 0px 20px;
+
+    word-spacing: 25px;
+}
+.carrito a{
+    color: rgb(202, 200, 200);
+}
+.carrito a:hover{
+    color: white;
+}
+
+
+
+.navegacion{
+    display: flex;
+    /* background: gray; */
+    padding: 10px 0px 0px 0px;
+}
+.nombres{
+    display: flex;
+    list-style: none;
+    padding: 0px 0px 10px 0px;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+.nombres a{
+    /* padding: px 5px 2px 5px;     */
+    color: #666666D9;
+}
+.hombre{
+    /* background: red; */
+    padding: 15px 2.5px 12.5px 2.5px;
+    margin: 0px 10px 0px 0px;
+}
+
+.edit_mujeres{
+    margin: 0px 10px 0px 5px;
+}
+.hombre:hover{
+    background: red;
+    color: white;
+}
+
+.redes{
+    padding: 15px 0px 0px 800px;
+    word-spacing: 25px;
+}
+.redes a{
+    color: #666666D9;
+}
+.redes a:hover{
+    color: black;
+}
+
+
+
+.slider {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0px;
+    margin: 0px;
+    height: 350px;
+    position: relative;
+  }
+  .slider ul, .slider ul li {
+    width: 100%;
+    height: 100%
+  }
+  .slider ul {
+    position: relative;
+    overflow: hidden;
+    z-index: -100;
+  }
+  .slider ul li {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-size: cover; /* semon #f98686 */
+    background-position: center;
+    color: #fff;
+    font-family: serif;
+  }
+  .slider ul li:first-of-type {
+    background-image: url("http://www.misr5.news/wp-content/uploads/2015/10/6957804-girl-children-blonde-blue-eyes-autumn-mood.jpg")
+  }
+  .slider ul li:nth-of-type(2) {
+    background-image: url("http://favim.com/orig/201107/19/cute-flowers-girl-pink-pretty-Favim.com-110225.jpg")
+  }
+  .slider ul li:nth-of-type(3) {
+    background-image: url("http://www.tsitut.net/wp-content/uploads/2016/04/born-to-stand-out.jpg")
+  }
+  .slider ul li:nth-of-type(4) {
+    background-image: url("https://37.media.tumblr.com/tumblr_lxkb5dtDuF1r5o9ano1_500.jpg")
+  }
+  .slider ul li:last-of-type {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/03/08/5f/03085f3adecf31a0ded89aec58e5bbed.jpg")
+  }
+  .slider .controll {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    border-bottom: 3px solid rgb(95, 46, 46);
+    border-left: 3px solid rgb(95, 46, 46);
+    cursor: pointer;
+    color: rgb(95, 46, 46);
+  }
+  .slider .controll:first-of-type {
+    transform: rotate(45deg);
+    left: 20px
+  }
+  .slider .controll:last-of-type {
+    transform: rotate(225deg);
+    right: 20px
+  }
+  .slider .controll:hover, .slider .controll.active {
+    border-color: #f98686 /* rose */
+  }
+  .slider ol {
+    text-align: center;
+    padding-top: 10px
+  }
+  .slider ol li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .slider ol .fa {
+      
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    font-weight: normall;
+  }
+  .slider ol li:hover .fa:before, .slider ol li.active .fa:before {
+    content: "\f111"
+  }
